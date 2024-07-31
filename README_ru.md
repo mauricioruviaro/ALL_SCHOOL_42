@@ -3,73 +3,75 @@
 ![42 School](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/src/header/header_004_.png)
 
 
-> ###### _Chose language: [[ ru ]](https://github.com/evgenkarlson/ALL_SCHOOL_42/) [[ en ]](README_en.md)_
+> ###### _Chose language: [[ ru ]](README_ru.md) [[ en ]](README.md)_
 
-- [Introduction](#introduction)
-- [0. School Documentation](#0-school-documentation)
-- [1. Piscine by language C](#1-piscine-c)
-- [2. Main training](#2-main-training)
-  - [Global branch](#global---shared-branch)
-  - [UNIX branch](#unix-branch)
-  - [Algorithmic branch](#algorithmic-branch)
-  - [Graphic branch](#graphic-branch)
-  - [WEB branch](#web-branch)
-  - [OCaml branch](#ocaml-branch)
-  - [Android & iOS branch](#android--ios-branch)
-  - [C++ branch](#c-branch)
-  - [Infrastructure & Network Administration](#infrastructure--network-administration)
-  - [Ai Projects - Artificial intelligence](#ai-projects---artificial-intelligence)
-  - [Side Projects](#side-projects)
-- [3. Other Piscines by School 42](#3-other-piscines-by-school-42)
-- [4. Group project by School 42(Rushes - mini-HACKATHONS)](#4-group-project-by-school-42rushes---minihackathons)
-
-
-# Introduction #
-
-This repository contains ALL, the TASKS and the PROJECTS in the training program from the [french school of programming `Ecole 42`](https://www.42.fr/).
-
-Projects and assignments will allow you to independently develop your programming skills, and the practical experience and knowledge gained while completing assignments and projects of School 42 will give you the necessary basis for professional integration, helping you to get a demanded profession from scratch.
-
-By sequentially moving through the directions, languages ​​and educational projects of School 42, using [the `Holy Graph` projects map](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png), you will develop fundamental technical skills:
-
-- System programming skills.
-- Knowing and understanding the essence of operating systems, networks, clouds and the services they contain.
-- Systems and network administration skills.
-- Information security skills.
-- AI skills.
-- Mobile Dev skills.
-- Graphics skills.
-- WEB development skills.
-- Network skills.
-- DB and Data.
-- etc.
-
-School 42's curriculum is individualized. Here, everyone progresses on their own, at their own pace, and not in accordance with the entire class of students (where the latest element slows down the work of the entire group), thus gaining their own understanding of programming paradigms.
+- [Введение](#введение)
+- [0. Документация по школе](#0-документация-по-школе)
+- [1. Бассейн по языку Си](#1-бассейн-по-языку-си)
+- [2. Основное обучение](#2-основное-обучение)
+  - [Общая ветвь](#global---общая-ветвь)
+  - [Ветвь UNIX](#ветвь-unix)
+  - [Ветвь Алгоритмов](#ветвь-алгоритмов)
+  - [Ветвь Графики](#ветвь-графики)
+  - [WEB ветвь](#web-ветвь)
+  - [OCaml ветвь](#ocaml-ветвь)
+  - [Android & iOS ветвь](#android--ios-ветвь)
+  - [C++ ветвь](#c-ветвь)
+  - [Системное & Сетевое Администрирование](#системное--сетевое-администрирование)
+  - [AI Projects - Искуственный интелект](#ai-projects---искуственный-интелект)
+  - [Side Projects - Сторонние Проекты](#side-projects---сторонние-проекты)
+- [3. Oстальные бассейны Школы 42](#3-остальные-бассейны-школы-42)
+- [4. Групповые проекты Школы 42(Rushes - миниХАКАТОНЫ)](#4-групповые-проекты-школы-42rushes---минихакатоны)
 
 
+# Введение #
 
-# 0. SCHOOL DOCUMENTATION #
+Этот репозиторий содержит ВСЕ ЗАДАНИЯ по программе обучения от [французской школы программирования `Ecole 42`](https://www.42.fr/).
 
-Here you can familiarize yourself with the rules in force within the walls of School 42, learn about the curriculum itself, read about the standards by which you will need to write code when solving tasks and projects, and also see everything that will help you start learning programming according to the program Schools 42.
+Проекты и задания позволят вам самостоятельно развить навыки программирования, а практический опыт и знания, полученные при выполнении заданий и проектов Школы 42, дадут вам необходимую основу для профессиональной интеграции, помогая с нуля получить востребованную профессию. 
 
- * Description of the training course: [[ en ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/cursus_manual.en.pdf) [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/cursus_manual.ru.md)
+Последовательно двигаясь по направлениям, языкам и учебным проектам Школы 42, используя [карту проектов `Holy Graph`](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png), вы сформируете у себя фундаментальные технические навыки:
 
- * Information about the `peer-to-peer` learning system itself: [[ en ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/the_art_of_peer_evaluation.EN.pdf) [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/the_art_of_peer_evaluation.RU.md)
+- Навыки системного программирования.
+- Знание и понимание сути операционных систем, сетей, облаков и содержащихся в них служб.
+- Навыки системного и сетевого администрирования.
+- Навыки информационной безопасности.
+- Навыки по AI.
+- Навыки Mobile Dev.
+- Навыки работы с графикой.
+- Навыки WEB разработки.
+- Навыки Network.
+- Навыки БД и Данных.
+- и т.д.
 
- * `Git` hints for interacting with a repository in `Vogsphere`: [[ fr ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/vogsphere.git.EN.pdf) [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/vogsphere.git.RU.md)
+Программа обучения Школы 42 индивидуализирована. Здесь каждый прогрессирует сам по себе, в своем собственном темпе, а не в соответствии со всем классом студентов (где самый поздний элемент замедляет работу всей группы), получая таким образом своё собственное понимание парадигм программирования.
+ 
 
- * An interactive tour that takes you through the basics of Git [[ru]](https://githowto.com/ru)
 
- * Norms describing how to write code: [[ fr ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.FR.pdf) [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.RU.md)
+# 0. ДОКУМЕНТАЦИЯ ПО ШКОЛЕ #
 
- * Checking code via `Norminette`: [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/code-check_norminette.md)
+Здесь вы сможете ознакомиться с правилами, действующими в стенах Школы 42, узнаете о самом учебном курсе, прочтете о стандартах, по которым нужно будет писать код при решении заданий и проектов, а также же увидите все то, что поможет вам начать обучение програмированию по программе Школы 42.
 
- * 10 rules for those who start swimming in the pool: [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/10_rules_for_piscine.md)
+ * Описание учебного курса школы: [[ en ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/cursus_manual.en.pdf) [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/cursus_manual.ru.md)
 
- * C language video course (for those who start the pool from scratch): [[ ru ]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
+ * Информация о самой системе `peer-to-peer` обучения: [[ en ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/the_art_of_peer_evaluation.EN.pdf) [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/the_art_of_peer_evaluation.RU.md)
+
+ * Подсказки по `Git` для взаимодействия с репозиторием в `Vogsphere`: [[ fr ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/vogsphere.git.EN.pdf) [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/vogsphere.git.RU.md)
+
+ * Интерактивный тур, который познакомит вас с основами Git [[ru]](https://githowto.com/ru)
+
+ * Нормы, описывающие то, как нужно писать код: [[ fr ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.FR.pdf) [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.RU.md)
+
+ * Проверка кода через `Norminette` [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/code-check_norminette.md)
+
+ * 10 правил, для тех кто начинает плавать в бассейне [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/10_rules_for_piscine.md)
+
+ * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[ ru ]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG) 
+
+ * Очень хорошо составленые видеоуроки по языку Си на английском языке (используйте яндекс браузер для просмотра этих видео на русском языке )[[ en ]] (https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM)
 
 <details>
-<summary> A list of C programming exercises: </summary>
+<summary> Список упражнений по программированию на языке Cи: </summary>
 
 0) https://fresh2refresh.com/c-programming/
 1) https://www.sanfoundry.com/simple-c-programs/
@@ -84,50 +86,49 @@ Here you can familiarize yourself with the rules in force within the walls of Sc
 
 ---
 
-> To speed up the process of translating and understanding the content of `pdf` files with tasks downloaded to your computer, use the cross-platform [`Crow Translate`](https://crow-translate.github.io/) text translator. (Remember that the translation character for the next line can be perceived by translators as the end of a sentence!)
+> Для ускорения процесса перевода и понимания содержимого, скачанных на компьютер `pdf` файлов с заданиями, используйте кроссплатформенный перевочик текста [`Crow Translate`](https://crow-translate.github.io/).(Помните, что символ перевода текста на следующую строку может восприниматься переводчиками как конец предложения!)
  
 ---
 
-> #### (!) Do not rush to execute the `Piscine C` until you have read the documentation.
+> #### (!) Не торопитесь выполнять бассейн по Си, пока не прочли документацию.
 
 ---
 
 
-# 1. PISCINE C #
+# 1. БАССЕЙН ПО ЯЗЫКУ СИ #
 
-It is from this place that the teaching of programming in School 42 will begin.
+Именно с этого бассейна начнётся обучение программированию в Школе 42.
+- Бассейн по Си: [[ en ]](./00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
+- Экзаменационные задания начального бассейна по Си: [[ en ][ fr ][ ro ]](./00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Exam_C)
+- Готовые и закомментированные решения заданий бассейна по Си: [[ ru ][ en ]](https://github.com/evgenkarlson/COMPLETED_PISCINE_C)
 
-- `Piscine` by language `C`: [[ en ]](./00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
-- Exam tasks of the `Piscine` by language `C`: [[ en ][ fr ][ ro ]](./00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Exam_C)
-- Ready-made and commented solutions for `Piscine` by language `C`: [[ ru ][ en ]](https://github.com/evgenkarlson/COMPLETED_PISCINE_C)
+Здесь вас будет ждать полное погружение в глубокую часть кода, которое позволит по-настоящему открыть для себя школу, ее уникальный метод обучения и, прежде всего, что такое программирование на самом деле.
 
-Here you will be fully immersed in the deep part of the code, which will allow you to truly discover the school, its unique teaching method and, above all, what programming really is.
+Каждый день бассейна вы будете получать порцию заданий (обычно 10 – 25), выстроенных по нарастающей сложности. И каждый день вы будете проходить новую тему и новые особености языка, которые будете понимать и запоминать, выполняя задания этого дня. 
 
-Every day of the pool you will receive a portion of tasks (usually 10 - 25), arranged in increasing difficulty. And every day you will go through a new topic and new features of the language that you will understand and remember while completing the tasks of this day.
+Чтобы помочь в них разобраться вам предоставляются обучающие видео на 10-30 минут с теорией и примерами(используйте в плеере функцию субтитров и их перевода на нужный вам язык), но, как правило, этого никогда не будет достаточно. Поэтому всю нужную информацию для обучения вы ищите самостоятельно через интернет. 
 
-To help you understand them, you are provided with training videos for 10-30 minutes with theory and examples (use the function of subtitles in the player and their translation into the language you need), but as a rule, this will never be enough. Therefore, you are looking for all the necessary information for training yourself via the Internet.
+С первого же дня вы сталкиваетесь не просто со сложными задачами, а с целыми областями знаний, о существовании которых вы могли даже не знать. Таким образом, какой бы высокий начальный уровень у вас ни был, вы обязательно встретитесь с заданием, которое точно вызовет затруднения. Увидя его, вы сначала войдете в ступор, но потом, путем неимоверных усилий, совершая череду ошибок, вы все-таки справляетесь с заданием и приобретаете навык, который становится привычным инструментом. Бассейн станет испытанием на прочность для тех, кто решит начать путь программирования, чтобы определить наиболее мотивированных.
 
-From day one, you are confronted not only with difficult tasks, but with entire areas of knowledge that you may not even know exist. Thus, no matter how high your entry level is, you are bound to run into a problem that is bound to cause difficulty. Seeing him, you will first fall into a stupor, but then with incredible efforts, having made a number of mistakes, you will still cope with the task and acquire a skill that will become a familiar tool. "Piscine" in "C" language will be a test of endurance for those who decide to start the programming path in order to determine the most motivated.
-
-Remember that learning the C programming language is fundamental to learning all other programming languages ​​like C ++, Java, Python, etc. Because all other advanced programming languages ​​have only been derived from the concepts of the C language.
-
----
-
-> #### (!) Do not be a fool and do not rush to move on to main training until you have passed and fully assimilated the material `Piscine` by language `C`.
+Помните, что изучение языка программирования C является основным для изучения всех других языков программирования, таких как C++, Java, Python и т.д. Потому что все другие продвинутые языки программирования были получены только на основе концепций языка C.
 
 ---
 
-
-# 2. MAIN TRAINING #
-
-[Core Learning Projects](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/)  represent the next step in programming learning. All of them are grouped by directions, which are represented as branches. Remember that each subsequent project of your chosen branch is more difficult than the previous one and can only be solved using the skills acquired in previous projects.
-
-Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png) and [ the visual` highlighting_branches` ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/highlighting_branches_Holy_Graph.gif) direction map to progress through the school 42 mainstream assignments/projects.
+> #### (!) Не будьте дураком и не торопитесь переходить к основному обучению, пока не прошли и полностью не усволили материал бассейна по Си.
 
 ---
-> ### [[Global - shared branch]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
+
+
+# 2. ОСНОВНОЕ ОБУЧЕНИЕ #
+
+[Проекты основного обучения](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/)  представляют собой следующий этап обучения программированию. Все они сгруппированы по направлениям, которые представлены в виде ветвей. Помните, что каждый последующий проект выбранной вами ветки сложнее предыдущего и может быть решен только с помощью навыков полученных в предыдущих проектах.
+
+Для продвижения по заданиям/проектам основного обучения Школы 42 используйте [карту проектов `Holy Graph`](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png) и [наглядную карту направлений `highlighting_branches`](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/highlighting_branches_Holy_Graph.gif)
+
 ---
->> #### Basic training begins with this branch.
+> ### [[GLOBAL - Общая ветвь]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
+---
+>> #### С этой ветки начинается основное обучение.
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/00____42_commandements) 42_commandements
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/00____ft_debut) ft_debut
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/00____piscine_reloaded(remindes_you_last_material_before_you_start_learning)) piscine reloaded
@@ -138,9 +139,9 @@ Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0
 ---
 
 
-> ### [[UNIX branch]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/)
+> ### [[Ветвь UNIX]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/)
 ---
->> #### This branch contains several directions: Unix, Kernel, Virus, Security, Network.
+>> #### Эта ветвь содержит в себе несколько направлений: Unix, Kernel, Virus, Security, Network.
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/00________ft_ls) ft_ls
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/02________minishell) minishell
 >   - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/03_0______ft_select) ft_select
@@ -195,9 +196,9 @@ Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0
 
 
 
-> ### [[Algorithmic branch]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/)
+> ### [[Ветвь Алгоритмов]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/)
 ---
->> #### This branch contains several directions: Algorithms, Data Science, Cryptography.
+>> #### Эта ветвь содержит в себе несколько  направлений: Algorithms, Data Science, Cryptography.
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/00____ft_printf) ft_printf
 >   - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/01_1__ft_ssl_md5) ft_ssl_md5
 >   - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/01_2__ft_ssl_des) ft_ssl_des
@@ -223,7 +224,7 @@ Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0
 
 
 
-> ### [[Graphic branch]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/03_Graphic/)
+> ### [[Ветвь Графики]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/03_Graphic/)
 ---
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/03_Graphic/00____fdf_(ft_wireframe)) FDF
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/03_Graphic/01____fractol_(ft_fractal)) Fract'Ol
@@ -242,7 +243,7 @@ Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0
 
 
 
-> ### [[WEB branch]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/)
+> ### [[WEB ветвь]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/)
 ---
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/00____piscine_php) piscine PHP
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/01____camagru) Camagru
@@ -256,7 +257,7 @@ Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0
 
 
 
-> ### [[Infrastructure & Network Administration]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)//05_Infrastructure_and_Admin/)
+> ### [[Системное & Сетевое Администрирование]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/05_Infrastructure_and_Admin/)
 ---
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/05_Infrastructure_and_Admin/00____init) init
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/05_Infrastructure_and_Admin/01____docker-1) docker-1
@@ -269,7 +270,7 @@ Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0
 
 
 
-> ### [[Android & iOS branch]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/)
+> ### [[Android & iOS ветвь]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/)
 ---
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/00____piscine_swift_ios) piscine Swift iOS
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/01____swifty-companion) Swifty Companion
@@ -283,10 +284,10 @@ Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0
 
 
 
-> ### [[C++ branch]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
+> ### [[C++ ветвь]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
 ---
-> - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/00____module_cpp_(its_the_same_as_a_picsine_cpp_but_new_version)) modules С++ (this is the same as `piscine C++`, but a new version)
-> - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/00____piscine_cpp_(its_the_same_as_a_module_cpp_but_old_version)) piscine C++ (this is the same as `modules C++` but the old version)
+> - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/00____module_cpp_(its_the_same_as_a_picsine_cpp_but_new_version)) modules С++ (это то же самое, что и `piscine C++`, но новая версия)
+> - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/00____piscine_cpp_(its_the_same_as_a_module_cpp_but_old_version)) piscine C++ (это то же самое, что и `modules С++` но старая версия)
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/01____webserv) webserv
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/02____ft_irc) ft_irc
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/03____ft_containers) ft_containers
@@ -297,7 +298,7 @@ Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0
 
 
 
-> ### [[Unity branch]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/)
+> ### [[Unity ветвь]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/)
 ---
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/00____piscine_unity) piscine Unity
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/01____In_the_shadows) In the Shadows
@@ -306,7 +307,7 @@ Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0
 
 
 
-> ### [[OCaml branch]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
+> ### [[OCaml ветвь]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
 ---
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/00____piscine_ocaml) piscine Ocaml
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/01____ft_ality) ft_ality
@@ -316,7 +317,7 @@ Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0
 
 
 
-> ### [[Ai Projects - Artificial intelligence]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/10_Ai/)
+> ### [[Ai Projects - Искуственный интелект]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/10_Ai/)
 ---
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/10_Ai/00____walking_marvin) walking_marvin
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/10_Ai/01____ft_sommelier) ft_sommelier
@@ -325,14 +326,14 @@ Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0
 
 
 
-> ### [[Side Projects]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/11_Side_Projects/)
+> ### [[Side Projects - Сторонние Проекты]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/11_Side_Projects/)
 ---
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/11_Side_Projects/00____ft_db) ft_db
 > - [[>]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/11_Side_Projects/01____kift) KIFT
 ---
 
 
-# 3. OTHER PISCINES BY SCHOOL 42 #
+# 3. ОСТАЛЬНЫЕ БАССЕЙНЫ ШКОЛЫ 42 #
 
 > - [[>]](./01_Piscines__(O%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_php_symfony) PHP-Symphony
 > - [[>]](./01_Piscines__(O%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_python-django) Python-Django
@@ -342,7 +343,7 @@ Use [ the `Holy Graph` project map ](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0
 
 
 
-# 4. GROUP PROJECT BY SCHOOL 42(Rushes - miniHACKATHONS) #
+# 4. ГРУППОВЫЕ ПРОЕКТЫ ШКОЛЫ 42(Rushes - миниХАКАТОНЫ) #
 
 > - [[>]](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alcu.pdf) AlCu
 > - [[>]](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alum1.pdf) Alum1
